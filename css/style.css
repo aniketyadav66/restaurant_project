@@ -47,3 +47,41 @@
     margin-left: 10px;
     
 }
+.item{
+ width: 100%;
+ display: flex;
+ justify-content: space-around;
+}
+.item_left{}
+.item_left h1{
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.item_left p{
+    color: white;
+    text-align: justify;
+    padding: 20px;
+}
+.item_left button{
+    background: rgb(244, 134, 0);
+    color: rgb(16, 15, 15);
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.item_right {
+    width: 50%;
+}
+.item_right img{
+    height: 350px;
+    width: 450px;
+}
+.carousel-indicators button{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 100% !important;
+
+}
